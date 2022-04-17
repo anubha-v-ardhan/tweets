@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-    # github-issue-parser parses issue and echo json output to tweet.json
+    # github-issue-parser parses issue and outputs data in json format
     - name: Run Issue form parser
       uses: stefanbuck/github-issue-parser@v2
       id: issue-parser
